@@ -1,0 +1,413 @@
+
+.container{
+
+    width: 1400px;
+    height: 890px;
+    background:  #2F1893;
+}
+
+
+/* sign-up form */
+.sign-up-form{
+    
+    width: 470px; 
+    height: 600px;
+
+    position: relative;
+    
+     left: 715px; 
+     top: 187px;
+
+    
+    
+    border-radius: 2%;
+    background-color: #EBEAED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+h3{
+
+   
+color: var(--colors-heading, #1E0E62);
+text-align: center;
+
+/* Heading / H3 Title */
+font-family: DM Sans;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 123.81% */
+letter-spacing: -0.4px;
+    
+}
+
+.input-box{
+
+    
+    width: 330px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid var(--colors-grey, #EBEAED);
+
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+
+/* Buttons / Middle */
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 144.444% */
+
+
+}
+
+.mail{
+    position: absolute;
+    bottom: 416px;
+    left: 70px;
+    
+}
+
+.pass{
+    position: absolute;
+    bottom: 346px;
+    left: 70px;
+}
+
+
+.check-box{
+    
+    position: absolute;
+    left: 70px;
+    top: 284px
+    
+}
+
+.agree{
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+
+/* Text / Paragraph */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+position: absolute;
+left: 107px;
+top:266px;
+/* bottom: 289.6px; */
+
+
+}
+
+.login{
+
+
+    width: 330px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 26px;
+    color: white;
+    border-radius: 100px;
+
+    border: none;
+    outline: none;
+}
+
+.sign-in{
+    background-color: #482BE7;
+
+    position: absolute;
+    bottom: 212px;
+    right: 70px;
+
+}
+
+.twitter{
+    background-color: #1DA1F2;
+    
+    position: absolute;
+bottom: 101px;
+right: 70px;
+}
+
+hr{
+    margin: 20px;
+    width: 328.003px;
+    flex-shrink: 0;
+
+    
+    position: absolute;
+    bottom: 160px;
+}
+
+.or{
+    background-color: #EBEAED;
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    text-align: center;
+    
+    /* Text / Paragraph */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+   opacity: 0.9;
+
+   width: 30px;
+   margin: -39px auto 10px;
+
+   position: absolute;
+   bottom: 160px;
+  
+}
+
+.account-check{
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+text-align: center;
+
+/* Text / Article */
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+
+position: absolute;
+bottom: 35px;
+left: 100px;
+}
+
+.sign{
+    color: var(--action-primary, #25DAC5);
+
+/* Text / Article */
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+text-decoration: none;
+}
+
+
+/* text-content */
+
+.text{
+    width: 427px;
+height: 496px;
+flex-shrink: 0;
+
+position: absolute;
+left: 209px;
+top: 219px;
+
+}
+
+.head2-area{
+
+    width: 424px;
+height: 217px;
+flex-shrink: 0;
+}
+
+
+h2{
+    
+    color: var(--colors-white, #FFF);
+
+/* Heading / H2 Header */
+font-family: DM Sans;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 120.69% */
+letter-spacing: -1px;
+
+}
+
+.head5-area{
+    position: absolute;
+    width: 363px ;
+    height: 160px;
+     top: 241px;
+     left: 0px;
+    right: 61px;
+     
+}
+
+h5{
+
+    position: absolute;
+    /* top: -37px; */
+    right: 60px;
+   
+    color: var(--colors-white, #FFF);
+
+/* Heading / H5 Lead */
+font-family: DM Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 145.455% */
+}
+
+.learnbtn{
+      position: absolute;
+      bottom: -25px;
+      width: 157px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 100px;
+background: var(--action-third, #E93A7D);
+
+
+}
+
+.Learn-More{
+   
+    position: absolute;
+    left: 31px;
+    top: 12px;
+    border: 0;
+    background: var(--action-third, #E93A7D);
+
+    color: var(--colors-white, #FFF);
+    text-align: center;
+    
+    /* Buttons / Middle */
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+
+}
+
+/* Header-menu */
+
+
+.header-menu{
+    position: absolute;
+    left: 213px;
+    top: 65px;
+
+    /* background-color: lightblue; */
+    
+    width: 972px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.startup-3{
+
+    position: absolute;
+    top: -9px;
+    left: 2px;
+ 
+
+    color: var(--colors-white, #FFF);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.293px;
+}
+
+.button{
+    color: var(--colors-white, #FFF);
+
+/* Buttons / Middle */
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 144.444% */
+
+background-color: #2F1893;
+border: 0;
+
+position: absolute;
+top: 7px;
+
+
+}
+
+.purch{
+    position: absolute;
+    right: 0px;  
+
+    width: 120px;
+height: 40px;
+flex-shrink: 0;
+
+border-radius: 100px;
+background: var(--action-third, #E93A7D);
+}
+
+.Purchase{
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    width: 79px;
+    height: 26px;
+    border: 0;
+    background-color: #E93A7D;
+
+
+    color: var(--colors-white, #FFF);
+text-align: center;
+
+/* Buttons / Middle */
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 144.444% */
+}
+
+
+
+.feedback{
+    position: absolute;
+    width: 84px;
+    height: 26px;
+
+    
+    right: 154px;
+}
+
+.blog{
+    position: absolute;
+    width: 36px;
+    height: 26px;
+
+    right: 271px;
+}
+
+.Prices{
+    position: absolute;
+    width: 53px;
+    height: 26px;
+
+    right: 337px;
+}
+
+.Overview{
+    position: absolute;
+    width: 80px;
+    height: 26px;
+
+    right: 423px;
+    opacity: 0.3;
+}
